@@ -1,0 +1,22 @@
+class Shing{
+    static int qwerty(int a,int b){
+        if(a>b){
+            return a;
+        }
+        else{
+            return b;
+        }
+    }
+    static double qwerty(double a,double b){
+        if(a<b){
+            return b;
+        }
+        else{
+            return a;
+        }
+    }
+    public static void main (String[]args){
+        System.out.println(qwerty(13,15));
+        System.out.println(qwerty(17.5,89.3));
+    }
+}
